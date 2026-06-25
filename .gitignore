@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Streamlit local files
+.streamlit/secrets.toml
+
+# Data privacy - upload real data inside Streamlit app instead
+Insurance.csv
+Insurance*.csv
+*.xlsx
+*.xls
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
